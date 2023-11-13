@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Tasty&Markup-tastic</title>
+    <link rel="stylesheet" href="./assets/styles/htmllang.css">
+</head>
+
+<body>
+    <header id="accueil">
+        <div class="menuburger">
+            <input type="checkbox">
+            <svg class="fa-bars" fill="#502314" viewBox=" 0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <nav class="nav-absolute">
+                <ul>
+                    <li id="menuburger-nothing"></li>
+                    <li><a href="./accueil.html">Accueil</a></li>
+                    <li><a href="./menu.html">Notre Menu de Développement</a></li>
+                    <li><a href="./clickcollect.html">Click&Codellect</a></li>
+                    <li><a href="./engagements.html">Nos Engagements en Développement</a></li>
+                    <li><a href="./account.html">Mon Compte en Code</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo-menu">
+            <a href="./accueil.html"><img id="image-logo" src="./assets/img/logo-nobackground.png" alt=""></a>
+            <nav class="menuflex">
+                <ul>
+                    <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                    <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                    <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                    <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    <li><a id="btn-contact" href="./contact.html">DÉVOREZ!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--     HEADER    ----->
+
+    <main>
+        <h1>Hot Tasty&Markup-tastic: Découvrez les Secrets Croustillants du HTML5</h1>
+        <p class="intro-text">Bienvenue, chers convives du code, dans notre restaurant virtuel de développement web!
+            Aujourd'hui, attachez
+            vos tabliers de codeurs gourmets car nous allons plonger dans
+            les bases délectables du HTML.
+            <br>Imaginez que nous sommes les chefs intrépides de la cuisine en ligne, prêts
+            à préparer le plat le plus délicieux de l'univers numérique - <b>le Hot Tasty&Markup-tastic!</b>
+            <br>Alors, installez-vous confortablement
+            et préparez-vous à déguster les fondations croustillantes et succulentes qui font de chaque site web une
+            expérience gastronomique. <b>Vous êtes prêts?</b> En avant, vers les délices du HTML5! 🍔💻
+        </p>
+        <div class="container-image-intro-html">
+            <img id="image-relative-html" src="./assets/img/doctype-code.png" alt="Code HTML">
+            <img id="image-absolute-html" src="./assets/img/logo-html.png" alt="Logo HTML5">
+        </div>
+        <p class="intro-text">N'oublions pas le secret essentiel pour démarrer notre expérience culinaire web en beauté!
+            Tout comme
+            chaque
+            grande recette commence par la meilleure des bases, chaque page web doit débuter avec une touche
+            spéciale.
+            C'est là que notre premier ingrédient magique entre en jeu :
+            <b>&lt;!DOCTYPE html&gt;</b>. Cette ligne de code est la fondation solide sur laquelle repose tout notre
+            festin
+            de
+            développement web.
+            <br>Alors, n'hésitez pas à laisser cette délicieuse déclaration trôner en tête de votre
+            document HTML, comme le chef qui pose fièrement sa signature au début d'une recette légendaire.
+            <br><b>Bon appétit, codeurs gourmets!</b>
+        </p>
+        <section id="structure-html">
+            <div>
+                <img src="./assets/img/burger-hmtl-structure.png" alt="Structure de HTML en burger">
+            </div>
+            <div id="text-structure-html">
+                <h2 class="title-h2">Un Hamburger de Code Délicieux</h2>
+                <p>
+                    Imaginez, si vous le voulez bien, que le HTML est comme un hamburger - une
+                    construction délicieuse avec différentes couches qui forment une expérience inoubliable.
+                    <br>Le pain
+                    supérieur? C'est le <b> "header".</b>
+                    <br>La viande juteuse au milieu? C'est le <b>"main".</b>
+                    <br>Et le pain inférieur? Eh
+                    bien,
+                    c'est le <b>"footer".</b>
+                    <br>Alors, accrochez vos tabliers virtuels et préparons-nous à cuisiner du code!
+                </p>
+            </div>
+        </section>
+        <section class="container-ingredients-html">
+            <h2 class="title-h2">Découvrez les ingrédients du Hot Tasty&Markup-tastic</h2>
+            <article>
+                <h3 class="title-h3">Les Balises: Comme les Ingrédients d'un Hamburger</h3>
+                <p>Pour commencer, plongeons dans le monde des balises HTML5, ces petites étiquettes magiques qui
+                    donnent de
+                    la structure à nos burgers web.</p>
+            </article>
+            <ol>
+                <li>
+                    <article>
+                        <h4 class="title-h4">&lt;h1&gt; - La Cerise sur le Dessus 🍒</h4>
+                        <p>
+                            Ah, la balise &lt;h1&gt;, c'est comme la cerise juteuse sur le dessus de notre hamburger.
+                            Elle
+                            représente le titre
+                            principal de la page. Par exemple:
+                        </p>
+                        <div class="container-codes">
+                            <div class="html-text-code"><code>html</code></div>
+                            <div class="text-code">
+                                <code>&lt;<span class="blue-code">h1</span>&gt;Le Monde des Burgers Délicieux&lt;/<span class="blue-code">h1</span>&gt;</code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4 class="title-h4">&lt;p&gt; - La Laitue Croquante 🥬</h4>
+                        <p>
+                            La balise &lt;p&gt; est comme la laitue croquante qui ajoute de la fraîcheur à notre
+                            hamburger.
+                            Elle
+                            est utilisée pour les paragraphes de texte. Regardez ça:
+                        </p>
+                        <div>
+                            <div class="html-text-code"><code>html</code></div>
+                            <div class="text-code">
+                                <code>&lt;<span class="blue-code">p</span>&gt;Le secret des burgers délicieux réside dans l'art du grillage parfait!&lt;/<span class="blue-code">p</span>&gt;</code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4 class="title-h4">&lt;a&gt; - La Sauce Secrète 🥫</h4>
+                        <p>
+                            Maintenant, la balise &lt;a&gt; est comme la sauce secrète qui relie tout. Elle crée des
+                            liens
+                            vers
+                            d'autres pages. Voici comment ça fonctionne:
+                        </p>
+                        <div>
+                            <div class="html-text-code"><code>html</code></div>
+                            <div class="text-code">
+                                <code>&lt;<span class="blue-code">a</span> <span class="aqua-code">href</span>=<span class="brown-code">"menu.html"</span>&gt;Découvrez notre menu&lt;/a&gt;</code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4 class="title-h4">&lt;img&gt; - Le Fromage Fondant 🧀</h4>
+                        <p>
+                            La balise &lt;img&gt; est le fromage fondant qui ajoute de la saveur visuelle. Elle affiche
+                            les
+                            images.
+                            Essayons cela:
+                        </p>
+                        <div>
+                            <div class="html-text-code"><code>html</code></div>
+                            <div class="text-code">
+                                <code>&lt;<span class="blue-code">img</span> <span class="aqua-code">src</span>=<span class="brown-code">"burger.jpg"</span> <span class="aqua-code">alt</span>=<span class="brown-code">"Un délicieux burger"</span>&gt;</code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4 class="title-h4">&lt;ul&gt; et &lt;li&gt; - Les Cornichons Croquants 🥒</h4>
+                        <p>
+                            Ah, les balises
+                            &lt;ul&gt; et &lt;li&gt; sont comme les cornichons croquants dans notre hamburger. Elles
+                            créent
+                            des
+                            listes. Regardez
+                            ça:
+                        </p>
+                        <div>
+                            <div class="html-text-code"><code>html</code></div>
+                            <div class="text-code">
+                                <code>
+                                    &lt;<span class="blue-code">ul</span>&gt;
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="blue-code">li</span>&gt;Burger au fromage&lt;/<span class="blue-code">li</span>&gt;
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="blue-code">li</span>&gt;Burger végétarien&lt;/<span class="blue-code">li</span>&gt;
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="blue-code">li</span>&gt;Burger bacon&lt;/<span class="blue-code">li</span>&gt;
+                                    <br>&nbsp;&nbsp;&lt;<span class="blue-code">ul</span>&gt;
+                                </code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4 class="title-h4">&lt;div&gt; - Le Plateau du Chef 🍽️</h4>
+                        <p>
+                            La balise &lt;div&gt; est comme le plateau du chef qui organise tout. Elle divise la page en
+                            sections. Jetez un coup
+                            d'œil:
+                        </p>
+                        <div>
+                            <div class="html-text-code"><code>html</code></div>
+                            <div class="text-code">
+                                <code>
+                                    &lt;<span class="blue-code">div</span>&gt; <span class="aqua-code">class</span>=<span class="brown-code">"burger-section"</span>&gt;
+                                    <br>&nbsp;&nbsp;<span class="green-code">&lt!-- Contenu de la section burger ici --&gt</span>
+                                    <br>&nbsp;&nbsp;&lt;/<span class="blue-code">div</span>&gt;                        
+                            </code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ol>
+            <article class="container-expressions-html">
+                <h3 class="title-h3">Quelques Expressions pour Assaisonner</h3>
+                <p>
+                    Maintenant que nous avons exploré les bases du HTML5, ajoutons un peu de piquant avec des
+                    expressions françaises amusantes!
+                </p>
+                <ul>
+                    <li><i>"C'est comme faire du code à la sauce secrète!"</i></li>
+                    <li><i>"HTML5, la recette magique pour des pages savoureuses."</i></li>
+                    <li><i>"Les balises HTML sont les épices de la programmation."</i></li>
+                    <li><i>"Programmer avec HTML, c'est comme créer sa propre recette de burger!"</i></li>
+                </ul>
+                <img id="image-middle-html" src="./assets/img/burger-main-linecodes.jpg" alt="Burger pour développeurs">
+            </article>
+            <section>
+                <h2 class="title-h2">La Conclusion: Codez avec Gourmandise</h2>
+                <p>Voilà, mes amis, nous avons exploré les bases savoureuses de HTML5 à travers l'analogie de notre
+                    hamburger délicieux. N'oubliez pas, le développement web est une aventure gastronomique! Alors,
+                    enfilez votre toque de chef virtuelle et commencez à créer des pages web aussi délicieuses que des
+                    burgers faits maison.
+
+                    <br><br><br><b style="font-size: 14pt;">Allez, bonne dégustation et codez avec gourmandise! 🍔💻</b>
+                </p>
+            </section>
+        </section>
+    </main>
+
+    <!--------------------- FOOTER-------------------------->
+    <footer>
+        <div class="container-app">
+            <div class="left-app">
+                <div id="logo-background">
+                    <img src="./assets/img/logo-nobackground.png" alt="Logo">
+                </div>
+                <div>
+                    <p><b>Téléchargez l'application DevBurgers+</b></p>
+                    <p>Commandez votre Dev-Burger préféré en quelques clics, profitez de notre programme fidélité et
+                        découvrez
+                        les offres exclusives de notre restaurant sur DevBurgers+.</p>
+                </div>
+            </div>
+            <div>
+                <img id="download" src="./assets/img/download-google-app.png" alt="App Store & Google Play">
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-networks">
+            <p>Suivez-nous</p>
+            <div class="container-logos">
+                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="./assets/img/facebook-logo.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/burgerkingfr/"><img src="./assets/img/instagram-logo.svg"
+                        alt="Instagram"></a>
+                <a href="https://twitter.com/burgerkingfr"><img src="./assets/img/x-logo.svg" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/@burgerkingfr"><img src="./assets/img/tiktok-logo.svg"
+                        alt="Tik Tok"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-links">
+            <article class="footer-links">
+                <h4>Notre Menu Gourmet</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                        <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                        <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                        <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Contactez-nous</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./contact.html">Service Client 0/7j</a></li>
+                        <li><a href="./contact.html">Commandes en Code</a></li>
+                        <li><a href="./contact.html">Adresse en Code</a></li>
+                        <li><a href="#footer">Réseaux Sociaux</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Notre Grand Équipe</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./plansite.html">William - Chef Génial</a></li>
+                        <li><a href="./plansite.html">Thomas - Maître du web</a></li>
+                        <li><a href="./plansite.html">Brendan - Gourou du frontend</a></li>
+                        <li><a href="./plansite.html">Pascal - Alternant passioné</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Engagements</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./recyclage.html">Recyclage de Code</a></li>
+                        <li><a href="./emballage.html">Emballages Écologiques</a></li>
+                        <li><a href="./initiative.html">Initiatives Locales</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+        <hr id="last-line" class="line-footer">
+        <div class="container-mentions">
+            <nav>
+                <ul>
+                    <li><a href="./mentions.html">Mentions illégales</a></li>
+                    <li><a href="./cookies.html">Cookies</a></li>
+                    <li><a href="#">Gérer mes cookies</a></li>
+                    <li><a href="./protection.html">Politique de non-protection des données personnelles</a></li>
+                    <li><a href="./GCV.html">CGV et Click&Code</a></li>
+                    <li><a href="./plansite.html">Plan du site</a></li>
+                </ul>
+            </nav>
+            <p>@LEMONDEWEBDETHOMASSANSBURGERS 2024 Created by César ORTIZ</p>
+        </div>
+    </footer>
+</body>
+
+</html>

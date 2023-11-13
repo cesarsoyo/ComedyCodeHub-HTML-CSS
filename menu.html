@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Menu en Développement</title>
+    <link rel="stylesheet" href="./assets/styles/menu.css">
+    <!-- https://fonts.google.com/specimen/Nunito
+        https://fonts.google.com/specimen/Alfa+Slab+One?stroke=Serif  
+    https://www.flexclip.com/es/share/4414941cd0918dd8496d1d6d59b75ca69ac2dc9.html -->
+
+</head>
+
+<body>
+    <header id="accueil">
+        <div class="menuburger">
+            <input type="checkbox">
+            <svg class="fa-bars" fill="#502314" viewBox=" 0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <nav class="nav-absolute">
+                <ul>
+                    <li id="menuburger-nothing"></li>
+                    <li><a href="./accueil.html">Accueil</a></li>
+                    <li><a href="./menu.html">Notre Menu de Développement</a></li>
+                    <li><a href="./clickcollect.html">Click&Codellect</a></li>
+                    <li><a href="./engagements.html">Nos Engagements en Développement</a></li>
+                    <li><a href="./account.html">Mon Compte en Code</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo-menu">
+            <a href="./accueil.html"><img id="image-logo" src="./assets/img/logo-nobackground.png" alt=""></a>
+            <nav class="menuflex">
+                <ul>
+                    <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                    <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                    <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                    <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    <li><a id="btn-contact" href="./contact.html">DÉVOREZ!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HEADER -->
+
+    <main>
+        <h1>Notre Menu en Développement</h1>
+        <p id="text-intro-menu">Bienvenue chez Le Monde Web de Thomas sans Burgers, où nos hamburgers ne sont pas seulement délicieux, mais
+            aussi éducatifs! 
+            <br>Découvrez nos Dev Burgers, un festin qui stimule votre palais et vos connaissances en
+            développement web!</p>
+
+        <section id="menu-burgers">
+            <h2>Nos burgers</h2>
+            <div class="container-menu-burgers">
+                <div class="card-burger">
+                    <a href="./html.html"><img src="./assets/img/html-burger.jpg" alt="Hot Tasty&Markup-tastic"></a>
+                    <p>Parfait pour apprendre l'HTML, notre Hot Tasty&Markup-tastic offre une explosion de saveurs
+                        éducatives. Un bun bien structuré.</p>
+                    <div class="price">
+                        <p><b style="font-size: 14pt;">6,99€</b></p>
+                    </div>
+                </div>
+                <div class="card-burger">
+                    <a href="./css.html"><img src="./assets/img/css-burger.jpg" alt="Double Stylehouse CSS"></a>
+                    <p>L'élégance du CSS dans un burger! Double Stylehouse CSS propose une leçon de style unique.
+                        Des couches de saveur parfaitement stylisées.</p>
+                    <div class="price">
+                        <p><b style="font-size: 14pt;">8,99€</b></p>
+                    </div>
+                </div>
+                <div class="card-burger">
+                    <a href="./js.html"><img src="./assets/img/js-burger.jpg" alt="Double Script Bacon XXL"></a>
+                    <p>Leçon de JavaScript avec Double Script Bacon XXL! Une symphonie de saveurs de scripts.
+                        Un bacon XXL pour des fonctions extra-savoureuses.</p>
+                    <div class="price">
+                        <p><b style="font-size: 14pt;">9,99€</b></p>
+                    </div>
+                </div>
+                <div class="card-burger">
+                    <a href="./php.html"><img src="./assets/img/php-burger.jpg" alt="PHP Whopper Supreme"></a>
+                    <p>Explorez le monde PHP avec notre PHP Whopper Supreme. Une expérience gustative et éducative.
+                        Un Whopper PHP robuste et savoureux.</p>
+                    <div class="price">
+                        <p><b style="font-size: 14pt;">9,99€</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-menu-complet">
+            <div>
+                <h2>
+                    Menu Complet :
+                </h2>
+                <p>Ajoutez des <b>"Frites de Fonctionnalités"</b> et une <b>"Boisson de Codage"</b> pour seulement <b style="color: #BB1E32;">2,99 euros</b> de plus,
+                    transformant votre repas en une expérience de développement web complète!</p>
+            </div>
+            <div>
+                <img src="./assets/img/fries-coke-menu.gif" alt="Menu complet">
+            </div>
+        </section>
+        <section class="container-next">
+            <div>
+                <img id="next-burger" src="./assets/img/burger-contact.gif" alt="Next Dev-Burgers?">
+            </div>
+            <div>
+                <h2>
+                    Prochaines Burgers Dev
+                </h2>
+                <p>Restez à l'affût des prochaines saveurs! Notre équipe de chefs-coders concocte déjà de nouvelles
+                    hamburgers décadentes pour stimuler votre appétit de connaissances. Préparez-vous à dévorer l'avenir
+                    du
+                    développement web chez Le Monde Web de Thomas sans Burgers!</p>
+                <ul>
+                    <li><b>Java Fusion Supreme :</b>
+                        Une fusion audacieuse de saveurs Java pour stimuler votre palais avec élégance.</li>
+                    <li><b>Python Slither Delight :</b>
+                        Une délice de saveurs Python qui glissent en douceur sur votre langue.</li>
+                    <li><b>C# Sharp Cheddar Stack :</b>
+                        Un empilement audacieux de saveurs C# pour les amateurs de goût sophistiqué.</li>
+                    <li><b>Rust Iron Stackhouse :</b>
+                        Un burger robuste avec des saveurs Rust, pour une expérience de dégustation inoubliable.</li>
+                    <li><b>SQL Data Cruncher Burger :</b>
+                        Le burger parfait pour les amateurs de données, avec des saveurs SQL bien assaisonnées.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-app">
+            <div class="left-app">
+                <div id="logo-background">
+                    <img src="./assets/img/logo-nobackground.png" alt="Logo">
+                </div>
+                <div>
+                    <p><b>Téléchargez l'application DevBurgers+</b></p>
+                    <p>Commandez votre Dev-Burger préféré en quelques clics, profitez de notre programme fidélité et
+                        découvrez
+                        les offres exclusives de notre restaurant sur DevBurgers+.</p>
+                </div>
+            </div>
+            <div>
+                <img id="download" src="./assets/img/download-google-app.png" alt="App Store & Google Play">
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-networks">
+            <p>Suivez-nous</p>
+            <div class="container-logos">
+                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="./assets/img/facebook-logo.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/burgerkingfr/"><img src="./assets/img/instagram-logo.svg"
+                        alt="Instagram"></a>
+                <a href="https://twitter.com/burgerkingfr"><img src="./assets/img/x-logo.svg" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/@burgerkingfr"><img src="./assets/img/tiktok-logo.svg"
+                        alt="Tik Tok"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-links">
+            <article class="footer-links">
+                <h4>Notre Menu Gourmet</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                        <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                        <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                        <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Contactez-nous</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./contact.html">Service Client 0/7j</a></li>
+                        <li><a href="./contact.html">Commandes en Code</a></li>
+                        <li><a href="./contact.html">Adresse en Code</a></li>
+                        <li><a href="#footer">Réseaux Sociaux</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Notre Grand Équipe</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./plansite.html">William - Chef Génial</a></li>
+                        <li><a href="./plansite.html">Thomas - Maître du web</a></li>
+                        <li><a href="./plansite.html">Brendan - Gourou du frontend</a></li>
+                        <li><a href="./plansite.html">Pascal - Alternant passioné</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Engagements</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./recyclage.html">Recyclage de Code</a></li>
+                        <li><a href="./emballage.html">Emballages Écologiques</a></li>
+                        <li><a href="./initiative.html">Initiatives Locales</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+        <hr id="last-line" class="line-footer">
+        <div class="container-mentions">
+            <nav>
+                <ul>
+                    <li><a href="./mentions.html">Mentions illégales</a></li>
+                    <li><a href="./cookies.html">Cookies</a></li>
+                    <li><a href="#">Gérer mes cookies</a></li>
+                    <li><a href="./protection.html">Politique de non-protection des données personnelles</a></li>
+                    <li><a href="./GCV.html">CGV et Click&Code</a></li>
+                    <li><a href="./plansite.html">Plan du site</a></li>
+                </ul>
+            </nav>
+            <p>@LEMONDEWEBDETHOMASSANSBURGERS 2024 Created by César ORTIZ</p>
+        </div>
+    </footer>
+</body>
+
+</html>

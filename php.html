@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Whopper Supreme</title>
+    <link rel="stylesheet" href="./assets/styles/phplang.css">
+    <!-- https://fonts.google.com/specimen/Nunito
+        https://fonts.google.com/specimen/Alfa+Slab+One?stroke=Serif  
+    https://www.flexclip.com/es/share/4414941cd0918dd8496d1d6d59b75ca69ac2dc9.html -->
+
+</head>
+
+<body>
+    <header id="accueil">
+        <div class="menuburger">
+            <input type="checkbox">
+            <svg class="fa-bars" fill="#502314" viewBox=" 0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <nav class="nav-absolute">
+                <ul>
+                    <li id="menuburger-nothing"></li>
+                    <li><a href="./accueil.html">Accueil</a></li>
+                    <li><a href="./menu.html">Notre Menu de Développement</a></li>
+                    <li><a href="./clickcollect.html">Click&Codellect</a></li>
+                    <li><a href="./engagements.html">Nos Engagements en Développement</a></li>
+                    <li><a href="./account.html">Mon Compte en Code</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo-menu">
+            <a href="./accueil.html"><img id="image-logo" src="./assets/img/logo-nobackground.png" alt=""></a>
+            <nav class="menuflex">
+                <ul>
+                    <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                    <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                    <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                    <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    <li><a id="btn-contact" href="./contact.html">DÉVOREZ!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HEADER -->
+    <main>
+        <h1>PHP Burger: Le Festin du Code Savoureux</h1>
+        <p>
+            Salut, petits chefs codeurs! Bienvenue dans l'univers délicieux de PHP, le langage secret qui donne du goût
+            à nos sites web comme une délicieuse sauce secrète. Attachez vos ceintures de code, car nous allons plonger
+            dans le monde gourmand de PHP Burger!
+        </p>
+
+        <article>
+            <h2>Chapitre 1: Les Ingrédients Savoureux de PHP</h2>
+            <p>Imaginez PHP comme le fromage fondu qui relie tous les ingrédients de notre hamburger. Il prend les
+                informations du site et les organise pour créer une expérience délicieuse. PHP est le chef d'orchestre
+                qui assure que tout fonctionne ensemble harmonieusement.
+
+                PHP, c'est comme la crème glacée sur un dessert - ça rend tout meilleur! Il se mélange parfaitement avec
+                le HTML et le CSS, ajoutant une douceur particulière à chaque page web.</p>
+            <div class="container-image-intro">
+                <img id="logo-php-intro" src="./assets/img/logo-php.png" alt="Logo PHP">
+                <img id="copylogo-php-intro" src="./assets/img/logo-php.png" alt="Logo PHP">
+                <img id="image-intro-php" src="./assets/img/image-intro-php.jpg" alt="Burger PHP">
+            </div>
+        </article>
+        <article class="container-title2-php">
+            <h2>Chapitre 2: Préparation du Code Appétissant</h2>
+            <p>Mettez vos toques de chef, car il est temps de préparer notre code appétissant avec PHP. PHP utilise des
+                "fonctions" pour accomplir des tâches spécifiques. C'est comme suivre une recette pour créer le meilleur
+                hamburger.
+
+                Prenons un exemple simple. Imaginons que vous vouliez créer un système pour saluer vos visiteurs avec un
+                message spécial sur votre site. Voici comment le PHP le ferait :</p>
+            <div>
+                <div class="php-text-code"><code>php</code></div>
+                <div class="text-code">
+                    <code>
+                            <span class="gray-code">&lt;?php</span>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="pink-code">$nomVisiteur</span> = <span class="green-code">"Petit Chef"</span>;
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">echo</span> <span class="green-code">"Bienvenue sur notre site, $nomVisiteur!"</span>;
+<br>&nbsp;&nbsp;&nbsp;<span class="gray-code">?&gt;</span>
+                        </code>
+                </div>
+            </div>
+            <p>
+                Vous venez de créer votre première recette PHP! Ce code accueille vos visiteurs avec un message
+                personnalisé.
+            </p>
+        </article>
+        <article class="container-ingredients-php">
+            <h2>Chapitre 3: Les Bases de PHP à la Sauce Bizarre</h2>
+            <p>PHP a des bases, un peu comme les pains d'un hamburger. Voici quelques ingrédients de base :</p>
+            <ul>
+                <li>
+                    <p><b>Variables:</b> Des boîtes pour stocker des informations, comme des bacs d'ingrédients dans
+                        votre
+                        cuisine.</p>
+                    <div>
+                        <div class="php-text-code"><code>php</code></div>
+                        <div class="text-code">
+                            <code>
+                                <span class="pink-code">$ingredientPrincipal</span> = <span class="green-code">"PHP"</span>;           
+                            </code>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p><b>Boucles:</b> Répéter des actions, comme superposer les couches d'un hamburger.</p>
+                    <div>
+                        <div class="php-text-code"><code>php</code></div>
+                        <div class="text-code">
+                            <code>
+                                <span class="blue-code">for</span> (<span class="pink-code">$i</span> = <span class="pink-code">0</span>; <span class="pink-code">$i</span> &lt; 3; <span class="pink-code">$i</span>++) {
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">echo</span> <span class="green-code">"Ajouter une couche!"</span>;
+                                <br>&nbsp;&nbsp;&nbsp;}                            
+                            </code>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p><b>Conditions:</b> Prendre des décisions, comme choisir entre ketchup et moutarde.</p>
+                    <div>
+                        <div class="php-text-code"><code>php</code></div>
+                        <div class="text-code">
+                            <code>
+                                <span class="blue-code">if</span> (<span class="pink-code">$ingredientPrincipal</span> === <span class="green-code">"PHP"</span>) {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">echo</span> <span class="green-code">"C'est délicieux!"</span>;
+                                <br>&nbsp;&nbsp;&nbsp;} <span class="bleu-code">else</span> {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bleu-code">echo</span> <span class="green-code">"Besoin de plus de PHP!"</span>;
+                                <br>&nbsp;&nbsp;&nbsp;}                          
+                            </code>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </article>
+        <article class="container-title4-php">
+            <h2>Chapitre 4: Des Exemples de Recettes PHP</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>Menu Dynamique :</h3>
+                        <p>Utilisons PHP pour créer un menu de hamburgers dynamique qui change en fonction des choix du
+                            client. C'est comme avoir un menu personnalisé à chaque visite!</p>
+                        <div>
+                            <div class="php-text-code"><code>php</code></div>
+                            <div class="text-code">
+                                <code>
+                                    <span class="gray-code">&lt;?php</span>
+                                    <br>&nbsp;&nbsp;&nbsp;<span class="pink-code">$hamburgerChoisi</span> = <span class="green-code">"PHPBurger"</span>;
+                                    <br>&nbsp;&nbsp;&nbsp;<span class="blue-code">echo</span> <span class="green-code">"Vous avez choisi le $hamburgerChoisi. Bon appétit!"</span>;
+                                    <br>&nbsp;&nbsp;&nbsp;<span class="gray-code">?&gt;</span>                        
+                                    </code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Calculateur de Prix :</h3>
+                        <p>Créons un calculateur de prix en PHP. Lorsque vous choisissez un hamburger, il calcule
+                            automatiquement le coût total!</p>
+                        <div>
+                            <div class="php-text-code"><code>php</code></div>
+                            <div class="text-code">
+                                <code>
+                                    <span class="gray-code">&lt;?php</span>
+                                    <br>&nbsp;&nbsp;&nbsp;<span class="blue-code">function</span> <span class="red-code">calculerPrix</span>(<span class="pink-code">$hamburgerChoisi</span>) {
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="pink-code">$prix</span> = <span class="pink-code">0</span>;
+                                        
+                                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">switch</span> (<span class="pink-code">$hamburgerChoisi</span>) {
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">case</span> <span class="green-code">"PHPBurger"</span>:
+                                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="pink-code">$prix</span> = <span class="pink-code">12</span>;
+                                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">break</span>;
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="gray-code">// Ajoutez d'autres cas pour chaque burger</span>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                                        
+                                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue-code">echo</span> <span class="green-code">"Le total est de $prix euros."</span>;
+                                    <br>&nbsp;&nbsp;&nbsp;}
+                                    <br>&nbsp;&nbsp;&nbsp;<span class="gray-code">?&gt;</span>        
+                                </code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Hamburger Magique :</h3>
+                        <p>Imaginons un hamburger qui se transforme en un autre avec une simple commande. Voici comment
+                            le PHP peut le faire :</p>
+                        <div>
+                            <div class="php-text-code"><code>php</code></div>
+                            <div class="text-code">
+                                <code>
+                                        <span class="gray-code">&lt;?php</span>
+                                        <br>&nbsp;&nbsp;&nbsp;<span class="pink-code">$hamburgerMagique</span> = <span class="green-code">"Hamburger de Base"</span>;
+                                        <br>&nbsp;&nbsp;&nbsp;<span class="blue-code">if</span> (<span class="pink-code">$ingredientPrincipal</span> === <span class="green-code">"PHP"</span>) {
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="pink-code">$hamburgerMagique</span> = <span class="green-code">"PHPBurger"</span>;
+                                        <br>&nbsp;&nbsp;&nbsp;}
+                                        <br>&nbsp;&nbsp;&nbsp;<span class="blue-code">echo</span> <span class="green-code">"Votre hamburger est maintenant $hamburgerMagique!"</span>;
+                                        <br>&nbsp;&nbsp;&nbsp;<span class="gray-code">?&gt;</span>    
+                                    </code>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h2>Chapitre 5: Dégustation Finale</h2>
+            <p>
+                Félicitations, petits chefs codeurs! Vous avez maintenant une compréhension délicieuse de PHP. Comme les
+                hamburgers, la programmation peut être amusante et pleine de surprises.
+                <br><br><b style="font-size: 14pt;">Alors, explorez, créez et
+                    régalez-vous avec votre PHP Burger préféré! 🍔✨</b>
+            </p>
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-app">
+            <div class="left-app">
+                <div id="logo-background">
+                    <img src="./assets/img/logo-nobackground.png" alt="Logo">
+                </div>
+                <div>
+                    <p><b>Téléchargez l'application DevBurgers+</b></p>
+                    <p>Commandez votre Dev-Burger préféré en quelques clics, profitez de notre programme fidélité et
+                        découvrez
+                        les offres exclusives de notre restaurant sur DevBurgers+.</p>
+                </div>
+            </div>
+            <div>
+                <img id="download" src="./assets/img/download-google-app.png" alt="App Store & Google Play">
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-networks">
+            <p>Suivez-nous</p>
+            <div class="container-logos">
+                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="./assets/img/facebook-logo.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/burgerkingfr/"><img src="./assets/img/instagram-logo.svg"
+                        alt="Instagram"></a>
+                <a href="https://twitter.com/burgerkingfr"><img src="./assets/img/x-logo.svg" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/@burgerkingfr"><img src="./assets/img/tiktok-logo.svg"
+                        alt="Tik Tok"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-links">
+            <article class="footer-links">
+                <h4>Notre Menu Gourmet</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                        <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                        <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                        <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Contactez-nous</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./contact.html">Service Client 0/7j</a></li>
+                        <li><a href="./contact.html">Commandes en Code</a></li>
+                        <li><a href="./contact.html">Adresse en Code</a></li>
+                        <li><a href="#footer">Réseaux Sociaux</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Notre Grand Équipe</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./plansite.html">William - Chef Génial</a></li>
+                        <li><a href="./plansite.html">Thomas - Maître du web</a></li>
+                        <li><a href="./plansite.html">Brendan - Gourou du frontend</a></li>
+                        <li><a href="./plansite.html">Pascal - Alternant passioné</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Engagements</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./recyclage.html">Recyclage de Code</a></li>
+                        <li><a href="./emballage.html">Emballages Écologiques</a></li>
+                        <li><a href="./initiative.html">Initiatives Locales</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+        <hr id="last-line" class="line-footer">
+        <div class="container-mentions">
+            <nav>
+                <ul>
+                    <li><a href="./mentions.html">Mentions illégales</a></li>
+                    <li><a href="./cookies.html">Cookies</a></li>
+                    <li><a href="#">Gérer mes cookies</a></li>
+                    <li><a href="./protection.html">Politique de non-protection des données personnelles</a></li>
+                    <li><a href="./GCV.html">CGV et Click&Code</a></li>
+                    <li><a href="./plansite.html">Plan du site</a></li>
+                </ul>
+            </nav>
+            <p>@LEMONDEWEBDETHOMASSANSBURGERS 2024 Created by César ORTIZ</p>
+        </div>
+    </footer>
+</body>
+
+</html>

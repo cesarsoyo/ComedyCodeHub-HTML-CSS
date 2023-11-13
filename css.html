@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Stylehouse CSS</title>
+    <link rel="stylesheet" href="./assets/styles/csslang.css">
+</head>
+
+<body>
+    <header id="accueil">
+        <div class="menuburger">
+            <input type="checkbox">
+            <svg class="fa-bars" fill="#502314" viewBox=" 0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <nav class="nav-absolute">
+                <ul>
+                    <li id="menuburger-nothing"></li>
+                    <li><a href="./accueil.html">Accueil</a></li>
+                    <li><a href="./menu.html">Notre Menu de Développement</a></li>
+                    <li><a href="./clickcollect.html">Click&Codellect</a></li>
+                    <li><a href="./engagements.html">Nos Engagements en Développement</a></li>
+                    <li><a href="./account.html">Mon Compte en Code</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo-menu">
+            <a href="./accueil.html"><img id="image-logo" src="./assets/img/logo-nobackground.png" alt=""></a>
+            <nav class="menuflex">
+                <ul>
+                    <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                    <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                    <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                    <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    <li><a id="btn-contact" href="./contact.html">DÉVOREZ!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!----------------- HEADER ------------------>
+
+    <main>
+        <h1>Double Stylehouse CSS: Un Festin de Style et de Fun!</h1>
+        <p class="intro-text">Bienvenue, petits chefs du code, à notre atelier virtuel Double Stylehouse CSS!
+            Aujourd'hui, nous allons
+            plonger dans le monde croustillant et stylé du CSS, ce langage qui transforme nos pages web en chefs-d'œuvre
+            visuels. Imaginez-vous comme des apprentis cuisiniers, prêts à créer la recette parfaite pour un site web
+            délicieux.
+            <br>Attrapez vos toques de code et commençons ce voyage délicieux dans le royaume du CSS!
+        </p>
+        <div class="container-image-intro-css">
+            <img id="image-intro-css" src="./assets/img/pc-css-nobackground.png" alt="PC avec une balise de CSS">
+        </div>
+        <section class="html-css-relation">
+            <div>
+                <img src="./assets/img/html-css-logo.jpg" alt="Logos de HTML et CSS ">
+            </div>
+            <article>
+                <h2>À la Découverte du CSS Magique</h2>
+                <p>Dans notre atelier de style nous allons découvrir comment rendre nos burgers aussi élégantes qu'une
+                    table bien dressée. Le CSS, c'est comme la magie qui donne vie à notre Dev-Burger. Commençons notre
+                    exploration de ce burger envoûtant!</p>
+                <article>
+                    <h3>Lien entre Double Stylehouse CSS et Hot Tasty&Markup-tastic</h3>
+                    <p>Avant de plonger dans les détails croustillants du Double Stylehouse CSS, rappelons-nous que ce
+                        menu
+                        est le partenaire parfait du Hot Tasty&Markup-tastic.
+                        <br>Si le HTML donne la structure au burger (comme les
+                        étages du sandwich), le CSS apporte le style (comme la décoration et les couleurs). Ces deux
+                        compères
+                        travaillent main dans la main pour créer un menu complet et visuellement attrayant!
+                    </p>
+                </article>
+            </article>
+        </section>
+        <section class="container-ingredients-css">
+            <h2>Les Outils Magiques du Style</h2>
+            <ol>
+                <li>
+                    <article>
+                        <h3>Sélecteurs CSS : Trouver le Bon Ingrédient</h3>
+                        <p>Les sélecteurs CSS sont comme des baguettes magiques qui nous permettent de choisir les
+                            éléments
+                            que nous voulons styliser. Par exemple, si nous voulons donner une couleur à tous les
+                            titres,
+                            nous utilisons <b>'h1'</b> comme sélecteur.</p>
+                        <div>
+                            <div class="css-text-code"><code>css</code></div>
+                            <div class="text-code">
+                                <code><span class="yellow-code">h1 {</span>
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="aqua-code">color</span>: <span class="brown-code">blue</span>;
+                                        <br>&nbsp;&nbsp;&nbsp;<span class="yellow-code">}</span></code>
+                            </div>
+                        </div>
+                        <p>
+                            <i>N'est-ce pas amusant de dire aux titres, "Soyez bleus comme le ciel!"?</i>
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Propriétés CSS : Les Assaisonnements Parfaits</h3>
+                        <p>Les propriétés CSS sont les ingrédients qui ajoutent du goût à notre page. Si nous
+                            voulons rendre notre texte plus grand, nous utilisons la propriété <b>font-size.</b></p>
+                        <div>
+                            <div class="css-text-code"><code>css</code></div>
+                            <div class="text-code">
+                                <code><span class="yellow-code">p {</span>
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="aqua-code">font-size</span>: <span class="green-code">18px</span>;
+                                  <br>&nbsp;&nbsp;&nbsp;<span class="yellow-code">}</span></code>
+                            </div>
+                        </div>
+                        <p>
+                            <i>C'est comme dire au texte, "Grandissez, devenez un géant des mots!"</i>
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Box Model : Le Cadre Magique</h3>
+                        <p>Le modèle de boîte CSS est comme le cadre de notre plat. Il nous permet de définir
+                            l'espace autour de nos éléments. Par exemple, si nous voulons ajouter une marge autour
+                            de nos images, nous utilisons <b>margin.</b></p>
+                        <div>
+                            <div class="css-text-code"><code>css</code></div>
+                            <div class="text-code">
+                                <code><span class="yellow-code">img {</span>
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="aqua-code">margin</span>: <span class="green-code">10px</span>;
+                                  <br>&nbsp;&nbsp;&nbsp;<span class="yellow-code">}</span></code>
+                            </div>
+                        </div>
+                        <p>
+                            <i>C'est comme dire aux images, "Donnez-vous un peu d'espace pour briller!"</i>
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Flexbox : L'Art de l'Agencement</h3>
+                        <p>Flexbox est comme l'art de disposer nos éléments sur la page. Il nous permet de créer des
+                            mises en page flexibles et dynamiques. Par exemple, si nous voulons aligner nos éléments
+                            horizontalement, nous utilisons <b>display: flex.</b></p>
+                        <div>
+                            <div class="css-text-code"><code>css</code></div>
+                            <div class="text-code">
+                                <code><span class="yellow-code">.container {</span>
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="aqua-code">display</span>: <span class="brown-code">flex</span>;
+                                 <br>&nbsp;&nbsp;&nbsp;<span class="yellow-code">}</span></code>
+                            </div>
+                        </div>
+                        <p>
+                            <i>C'est comme dire aux éléments, "Formez une équipe, soyez flexibles!"</i>
+                        </p>
+                    </article>
+                </li>
+            </ol>
+        </section>
+        <section class="container-animations-css">
+            <div>
+                <h2>La Créativité sans Limites</h2>
+                <article>
+                    <h3>Jouer avec les Couleurs</h3>
+                    <p>Imaginez votre site web comme une palette de couleurs. Le CSS nous permet de choisir des couleurs
+                        pour nos textes, arrière-plans et bordures. Alors, ajoutez un peu de rouge par ici, un soupçon
+                        de bleu par là, et créez votre propre chef-d'œuvre coloré!</p>
+                </article>
+                <article>
+                    <h3>Animation Magique</h3>
+                    <p>Avec CSS, vous pouvez même donner vie à votre site web en ajoutant des animations. Faites danser
+                        vos images, faites clignoter vos titres - laissez libre cours à votre imagination!</p>
+                </article>
+            </div>
+            <div>
+                <img src="./assets/img/logo-css.gif" alt="GIF logo CSS">
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Conseils pour les Jeunes Maîtres du Code</h2>
+                <article>
+                    <h3>Ne Soyez Pas Timides</h3>
+                    <p>N'ayez pas peur d'expérimenter avec le CSS. Essayez différentes propriétés, mélangez les
+                        couleurs, et
+                        créez quelque chose de nouveau. C'est comme essayer de nouvelles recettes dans la cuisine!</p>
+                </article>
+                <article>
+                    <h3>Apprendre en s'Amusant</h3>
+                    <p>Le CSS peut être amusant! Mettez en pratique vos connaissances en stylisant des pages web de jeux
+                        ou
+                        en créant votre propre blog. Plus vous pratiquez, plus vous deviendrez un maître du style!</p>
+                </article>
+            </div>
+            <div>
+                <img id="image-middle-css" src="./assets/img/burger-middle-css.jpg" alt="Burger pour développeurs">
+            </div>
+        </section>
+        <section>
+            <h2>Conclusion: Votre Chef-d'Œuvre CSS</h2>
+            <p>Voilà, petits chefs, nous avons parcouru ensemble les bases du CSS dans notre atelier Double Stylehouse
+                CSS! Rappelez-vous, le CSS est votre allié créatif pour rendre vos sites web aussi uniques que votre
+                recette préférée de cuisine. Alors, enfilez votre tablier de codeur, ajoutez une pincée de style, et
+                commencez votre aventure culinaire dans le monde du CSS.
+                <br><br><b style="font-size: 14pt;">Amusez-vous bien et codez avec style! 🍔💻</b>
+            </p>
+        </section>
+    </main>
+
+    <!----------------- FOOTER ------------------>
+ <footer>
+        <div class="container-app">
+            <div class="left-app">
+                <div id="logo-background">
+                    <img src="./assets/img/logo-nobackground.png" alt="Logo">
+                </div>
+                <div>
+                    <p><b>Téléchargez l'application DevBurgers+</b></p>
+                    <p>Commandez votre Dev-Burger préféré en quelques clics, profitez de notre programme fidélité et
+                        découvrez
+                        les offres exclusives de notre restaurant sur DevBurgers+.</p>
+                </div>
+            </div>
+            <div>
+                <img id="download" src="./assets/img/download-google-app.png" alt="App Store & Google Play">
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-networks">
+            <p>Suivez-nous</p>
+            <div class="container-logos">
+                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="./assets/img/facebook-logo.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/burgerkingfr/"><img src="./assets/img/instagram-logo.svg"
+                        alt="Instagram"></a>
+                <a href="https://twitter.com/burgerkingfr"><img src="./assets/img/x-logo.svg" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/@burgerkingfr"><img src="./assets/img/tiktok-logo.svg"
+                        alt="Tik Tok"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-links">
+            <article class="footer-links">
+                <h4>Notre Menu Gourmet</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                        <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                        <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                        <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Contactez-nous</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./contact.html">Service Client 0/7j</a></li>
+                        <li><a href="./contact.html">Commandes en Code</a></li>
+                        <li><a href="./contact.html">Adresse en Code</a></li>
+                        <li><a href="#footer">Réseaux Sociaux</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Notre Grand Équipe</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./plansite.html">William - Chef Génial</a></li>
+                        <li><a href="./plansite.html">Thomas - Maître du web</a></li>
+                        <li><a href="./plansite.html">Brendan - Gourou du frontend</a></li>
+                        <li><a href="./plansite.html">Pascal - Alternant passioné</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Engagements</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./recyclage.html">Recyclage de Code</a></li>
+                        <li><a href="./emballage.html">Emballages Écologiques</a></li>
+                        <li><a href="./initiative.html">Initiatives Locales</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+        <hr id="last-line" class="line-footer">
+        <div class="container-mentions">
+            <nav>
+                <ul>
+                    <li><a href="./mentions.html">Mentions illégales</a></li>
+                    <li><a href="./cookies.html">Cookies</a></li>
+                    <li><a href="#">Gérer mes cookies</a></li>
+                    <li><a href="./protection.html">Politique de non-protection des données personnelles</a></li>
+                    <li><a href="./GCV.html">CGV et Click&Code</a></li>
+                    <li><a href="./plansite.html">Plan du site</a></li>
+                </ul>
+            </nav>
+            <p>@LEMONDEWEBDETHOMASSANSBURGERS 2024 Created by César ORTIZ</p>
+        </div>
+    </footer>
+</body>
+
+</html>

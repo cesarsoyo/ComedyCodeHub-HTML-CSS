@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codez-nous</title>
+    <link rel="stylesheet" href="./assets/styles/contact.css">
+</head>
+
+<body>
+    <header id="accueil">
+        <div class="menuburger">
+            <input type="checkbox">
+            <svg class="fa-bars" fill="#502314" viewBox=" 0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <nav class="nav-absolute">
+                <ul>
+                    <li id="menuburger-nothing"></li>
+                    <li><a href="./accueil.html">Accueil</a></li>
+                    <li><a href="./menu.html">Notre Menu de Développement</a></li>
+                    <li><a href="./clickcollect.html">Click&Codellect</a></li>
+                    <li><a href="./engagements.html">Nos Engagements en Développement</a></li>
+                    <li><a href="./account.html">Mon Compte en Code</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo-menu">
+            <a href="./accueil.html"><img id="image-logo" src="./assets/img/logo-nobackground.png" alt=""></a>
+            <nav class="menuflex">
+                <ul>
+                    <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                    <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                    <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                    <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!----------------- HEADER ------------------>
+
+    <main>
+        <h1>Commande Gourmande</h1>
+        <p id="text-intro-contact">Bienvenue chez <b style="color: #BB1E32;">Le Monde Web de Thomas sans Burgers</b>, où
+            chaque commande est une symphonie de saveurs numériques! Remplissez
+            ce formulaire pour nous dire ce que vous désirez dans votre menu personnalisé.</p>
+
+        <section class="container-form">
+            <h2>Formulaire de Contact</h2>
+            <div class="container-name">
+                <div>
+                    <label for="name"><b>Nom et Prénom</b></label>
+                    <input placeholder="Entrez votre nom" id="name" type="text" required>
+                </div>
+                <div>
+                    <label for="city"><b>Ville</b></label>
+                    <input placeholder="Votre ville délicieuse" id="city" type="text" required>
+                </div>
+                <div>
+                    <label for="country"><b>Pays</b></label>
+                    <input placeholder="Commandes uniquement en France" id="country" type="text">
+                </div>
+            </div>
+
+            <p id="text-choix-burgers"><b>Indiquez vos choix gourmands</b></p>
+
+            <div class="container-burgers">
+                <div class="burgers">
+                    <img src="./assets/img/html-burger.jpg" alt="Dev-Burger HTML">
+                    <div class="container-title-burgers">
+                        <input id="html-burger" type="checkbox">
+                        <label for="html-burger"><b>Hot Tasty&Markup-tastic</b></label>
+                    </div>
+                    <label class="text-desc-burgers" for="number-html">Combien pour calmer ta faim de code?</label>
+                    <select id="number-html">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="wow">Plus? T'es marteau ou quoi?</option>
+                    </select>
+                    <label class="text-desc-burgers" for="ingredients-html">Personnalisez votre Dev-Burger</label>
+                    <select id="ingredients-html">
+                        <option value="nothing">Sélectionner</option>
+                        <option value="-div">Supprimer les balises &lt;div&gt; inutiles</option>
+                        <option value="+a">Ajouter une pincée de &lt;a&gt; pour les liens</option>
+                        <option value="+img">Incorporer des &lt;img&gt; pour des images attrayantes</option>
+                        <option value="+h1">Parsemer de &lt;h1&gt; pour des titres audacieux</option>
+                        <option value="-table">Éliminer &lt;table&gt; pour une structure plus moderne</option>
+                    </select>
+                </div>
+                <div class="burgers">
+                    <img src="./assets/img/css-burger.jpg" alt="Dev-Burger CSS">
+                    <div class="container-title-burgers">
+                        <input id="css-burger" type="checkbox">
+                        <label for="css-burger"><b>Double Stylehouse CSS</b></label>
+                    </div>
+                    <label class="text-desc-burgers" for="number-css">Combien pour calmer ta faim de code?</label>
+                    <select id="number-css">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="wow">Plus? T'es fou, non?</option>
+                    </select>
+                    <label class="text-desc-burgers" for="ingredients-css">Personnalisez votre Dev-Burger</label>
+                    <select id="ingredients-css">
+                        <option value="nothing">Sélectionner</option>
+                        <option value="+boxshadow">Ajouter 'box-shadow' pour une ombre subtile</option>
+                        <option value="+borderradius">Incorporer 'border-radius' pour des coins arrondis
+                        </option>
+                        <option value="-marge">Retirer les 'marges' pour un design épuré</option>
+                        <option value="+linergradient">Utiliser 'linear-gradient' pour des arrière-plans
+                            gradients</option>
+                        <option value="+transform">Ajouter 'transform' pour des animations ludiques</option>
+                    </select>
+                </div>
+                <div class="burgers">
+                    <img src="./assets/img/js-burger.jpg" alt="Dev-Burger Javascript">
+                    <div class="container-title-burgers">
+                        <input id="js-burger" type="checkbox">
+                        <label for="js-burger"><b>Double Script Bacon XXL</b></label>
+                    </div>
+                    <label class="text-desc-burgers" for="number-js">Combien pour calmer ta faim de code?</label>
+                    <select id="number-js">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="wow">Plus? Mais t'as fumé quoi, toi ?</option>
+                    </select>
+                    <label class="text-desc-burgers" for="ingredients-js">Personnalisez votre Dev-Burger</label>
+                    <select id="ingredients-js">
+                        <option value="nothing">Sélectionner</option>
+                        <option value="+eventlisteners">Intégrer des 'eventListeners' pour des interactions
+                            dynamiques</option>
+                        <option value="+settimeout">Ajouter des 'setTimeout' pour des délais contrôlés
+                        </option>
+                        <option value="+classlist">Utiliser 'classList' pour des modifications d'état
+                        </option>
+                        <option value="+promises">Incorporer des 'promises' pour une gestion asynchrone
+                        </option>
+                        <option value="-alert">Supprimer 'alert' pour une approche plus moderne</option>
+                    </select>
+                </div>
+                <div class="burgers">
+                    <img src="./assets/img/php-burger.jpg" alt="Dev-Burger PHP">
+                    <div class="container-title-burgers">
+                        <input id="php-burger" type="checkbox">
+                        <label for="php-burger"><b>PHP Whopper Supreme</b></label>
+                    </div>
+                    <label class="text-desc-burgers" for="number-php">Combien pour calmer ta faim de code?</label>
+                    <select class="text-desc-burgers" id="number-php">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="wow">Plus? T'as perdu la tête ou bien?</option>
+                    </select>
+                    <label class="text-desc-burgers" for="ingredients-php">Personnalisez votre Dev-Burger</label>
+                    <select class="text-desc-burgers" id="ingredients-php">
+                        <option value="nothing">Sélectionner</option>
+                        <option value="+include">Inclure 'include' pour une modularité étendue</option>
+                        <option value="+mysqli">Utiliser 'mysqli' pour une connexion sécurisée à la base de
+                            données</option>
+                        <option value="+foreach">Ajouter 'foreach' pour des boucles élégantes</option>
+                        <option value="+pdo">Incorporer 'PDO' pour des requêtes préparées</option>
+                        <option value="-mysql_">Retirer 'mysql_' pour une sécurité renforcée</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container-textarea">
+                <label for="message"><b>Chez Le Monde Web de Thomas sans Burgers, nous n'acceptons que des commentaires
+                        aussi impeccables que
+                        notre code!
+                        <br>Pour les critiques, composez directement le numéro du chef, M. William Sauvage,
+                        figurant
+                        ci-dessous. Nous sommes prêts à affronter les défis avec la même élégance que la syntaxe
+                        CSS.</b></label>
+                <textarea name="commentaires" id="message" cols="30" rows="10"
+                    placeholder="Tapez votre message impeccable en code..."></textarea>
+            </div>
+            <button id="btn-envoyer-commande" type="submit">Envoyer ma Commande Gourmande!</button>
+        </section>
+
+        <section class="container-contact">
+            <h2>Codez-nous</h2>
+            <p>Besoin d'un coup de pouce numérique? Ne soyez pas timide, contactez-nous! Notre équipe de codeurs
+                gastronomiques est prête à transformer vos idées en délices numériques.</p>
+            <article>
+                <h3>Mme. Jodie Rabattu - Pour des Demandes Spéciales :</h3>
+                <p>Pour des demandes spéciales dans votre Dev-Burger ou pour régler tout problème avec votre compte en
+                    ligne, appelez Mme. Jodie Rabattu au
+                    <br><b>+33 1 23 45 67 89.</b>
+                    <br>Elle adore résoudre les énigmes
+                    numériques autant que personnaliser vos commandes!
+                </p>
+            </article>
+            <article>
+                <h3>M. William Sauvage - Pour Toutes Réclamations Savoureuses :</h3>
+                <p>Si quelque chose ne va pas avec votre expérience, appelez directement M. William Sauvage au
+                    <br><b>+33 6
+                        98 76 54 32.</b>
+                    <br>Il adore les challenges autant que nous adorons déguster de nouvelles
+                    idées. À vos critiques, prêts, partez!
+                </p>
+            </article>
+            <article>
+                <h3> M. Brendan - Pour le Design et le Code Savoureux :</h3>
+                <p>Besoin d'un design de burger délicieux ou de lignes de code élégantes? Appelez M. Brendan au
+                    <br><b>+33 6
+                        12
+                        34 56 78.</b>
+                    <br>Il est notre génie du design, prêt à transformer vos idées en une
+                    œuvre d'art numérique.
+                </p>
+            </article>
+            <br><br>
+            <p><i id="little-text">Si vous essayez de joindre Thomas ou Pascal, préparez-vous à une expérience aussi
+                    rapide qu'un
+                    téléchargement avec une connexion 56k. On dit qu'ils répondent... parfois. Bonne chance!</i></p>
+            <br>
+            <p>Chez Le Monde Web de Thomas sans Burgers, même nos numéros de téléphone ont du style! Contactez-nous pour
+                un voyage
+                numérique délicieux et élégant.
+                <br><br><b>À bientôt au bout du fil!</b>
+            </p>
+        </section>
+
+        <section class="container-signup">
+            <h2>Envie d'une expérience personnalisée ?</h2>
+            <p>Souhaitez-vous des offres spéciales, des conseils personnalisés et une expérience de commande plus
+                rapide? Créez un compte dès maintenant pour débloquer un monde de délices numériques!</p>
+            <a href="./account.html"><b>Joignez-nous</b></a>
+        </section>
+    </main>
+
+    <!------------------- FOOTER ----------------------->
+    <footer>
+        <div class="container-app">
+            <div class="left-app">
+                <div id="logo-background">
+                    <img src="./assets/img/logo-nobackground.png" alt="Logo">
+                </div>
+                <div>
+                    <p><b>Téléchargez l'application DevBurgers+</b></p>
+                    <p>Commandez votre Dev-Burger préféré en quelques clics, profitez de notre programme fidélité et
+                        découvrez
+                        les offres exclusives de notre restaurant sur DevBurgers+.</p>
+                </div>
+            </div>
+            <div>
+                <img id="download" src="./assets/img/download-google-app.png" alt="App Store & Google Play">
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-networks">
+            <p>Suivez-nous</p>
+            <div class="container-logos">
+                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="./assets/img/facebook-logo.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/burgerkingfr/"><img src="./assets/img/instagram-logo.svg"
+                        alt="Instagram"></a>
+                <a href="https://twitter.com/burgerkingfr"><img src="./assets/img/x-logo.svg" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/@burgerkingfr"><img src="./assets/img/tiktok-logo.svg"
+                        alt="Tik Tok"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="line-footer">
+        <div class="container-links">
+            <article class="footer-links">
+                <h4>Notre Menu Gourmet</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
+                        <li><a href="./css.html">Double Stylehouse CSS</a></li>
+                        <li><a href="./js.html">Double Script Bacon XXL</a></li>
+                        <li><a href="./php.html">PHP Whopper Supreme</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Contactez-nous</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./contact.html">Service Client 0/7j</a></li>
+                        <li><a href="./contact.html">Commandes en Code</a></li>
+                        <li><a href="./contact.html">Adresse en Code</a></li>
+                        <li><a href="#footer">Réseaux Sociaux</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Notre Grand Équipe</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./plansite.html">William - Chef Génial</a></li>
+                        <li><a href="./plansite.html">Thomas - Maître du web</a></li>
+                        <li><a href="./plansite.html">Brendan - Gourou du frontend</a></li>
+                        <li><a href="./plansite.html">Pascal - Alternant passioné</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="footer-links">
+                <h4>Engagements</h4>
+                <nav>
+                    <ul>
+                        <li><a href="./recyclage.html">Recyclage de Code</a></li>
+                        <li><a href="./emballage.html">Emballages Écologiques</a></li>
+                        <li><a href="./initiative.html">Initiatives Locales</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+        <hr id="last-line" class="line-footer">
+        <div class="container-mentions">
+            <nav>
+                <ul>
+                    <li><a href="./mentions.html">Mentions illégales</a></li>
+                    <li><a href="./cookies.html">Cookies</a></li>
+                    <li><a href="#">Gérer mes cookies</a></li>
+                    <li><a href="./protection.html">Politique de non-protection des données personnelles</a></li>
+                    <li><a href="./GCV.html">CGV et Click&Code</a></li>
+                    <li><a href="./plansite.html">Plan du site</a></li>
+                </ul>
+            </nav>
+            <p>@LEMONDEWEBDETHOMASSANSBURGERS 2024 Created by César ORTIZ</p>
+        </div>
+    </footer>
+</body>
+
+</html>

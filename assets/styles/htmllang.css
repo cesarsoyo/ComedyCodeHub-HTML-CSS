@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,800&family=Nunito:wght@400;1000&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background: #F5EBDC;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuburger a:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+    box-shadow: -4px 4px 5px .05rem black;
+
+}
+
+.menuburger a {
+    color: #502314;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(80, 35, 20, .5);
+    max-width: 300px;
+    background: white;
+    font-family: Nunito;
+    font-weight: 1000;
+    width: 150px;
+}
+
+.menuburger input[type="checkbox"],
+.menuburger .fa-bars {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.menuburger .fa-bars {
+    font-size: 48px;
+    pointer-events: none;
+}
+
+.menuburger input[type="checkbox"] {
+    opacity: 0;
+}
+
+#menuburger-nothing {
+    display: block;
+    border-bottom: 3px solid rgb(80, 35, 20);
+    padding: 10px 20px;
+    max-width: 300px;
+    background: white;
+    height: 10px;
+}
+
+.menuburger {
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.menuburger nav {
+    display: none;
+}
+
+.nav-absolute {
+    position: absolute;
+    top: 34px;
+    left: -60px;
+}
+
+.menuburger li {
+    list-style: none;
+    width: 150px;
+}
+
+.menuburger input:checked~nav {
+    display: block;
+}
+
+.menuburger input:checked~.fa-bars {
+    display: none;
+}
+
+#image-logo {
+    width: 120px;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.menuflex ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.menuflex li {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 11pt;
+    list-style: none;
+}
+
+.menuflex li:hover {
+    font-size: 12pt;
+}
+
+.menuflex a {
+    color: #502314;
+    text-decoration: none;
+    padding: 0;
+}
+
+#btn-contact {
+    background: #502314;
+    color: #F5EBDC;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.menuflex a:hover {
+    filter: brightness(1.5);
+}
+
+/* --------------fin CSS header ---------- */
+
+main {
+    background: #FAF5ED;
+    margin: 0;
+    padding: 50px 100px 60px 100px;
+}
+
+main h1 {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 24pt;
+    color: #502314;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.container-image-intro-html {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#image-relative-html {
+    height: 600px;
+    z-index: 2;
+    box-shadow: -11px 0px 11px 3px #000000ad;
+    border-bottom-left-radius: 120px;
+
+}
+
+#image-absolute-html {
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 50px;
+    height: 400px;
+    transform: rotate(-15deg);
+}
+
+#structure-html {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#structure-html img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: -5px 3px 6px 3px #0000007a;
+}
+
+#text-structure-html {
+    margin-left: 20px;
+    padding-right: 200px;
+}
+
+#text-structure-html p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.title-h2 {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 18pt;
+    text-align: left;
+    margin: 0;
+    color: #502314;
+}
+
+.container-ingredients-html h3 {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 14pt;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+    color: #502314;
+}
+
+.container-ingredients-html h4,
+.container-ingredients-html li {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 12pt;
+    text-align: left;
+    color: #502314;
+}
+
+.container-ingredients-html p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.container-ingredients-html code {
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.html-text-code {
+    background: gray;
+    height: 22px;
+    width: 850px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 10pt;
+    color: white;
+    padding-top: 8px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.html-text-code code {
+    margin-left: 20px;
+    opacity: .7;
+}
+
+.text-code {
+    background: black;
+    width: 850px;
+    height: fit-content;
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.text-code code {
+    margin-left: 20px;
+}
+
+.blue-code {
+    color: rgb(57, 57, 171);
+}
+
+.aqua-code {
+    color: aqua;
+}
+
+.brown-code {
+    color: rgb(163, 101, 56);
+}
+
+.green-code {
+    color: darkgreen;
+}
+
+#image-middle-html {
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.container-expressions-html {
+    margin-top: 50px;
+}
+
+
+/* ---------------fin CSS main------------ */
+footer {
+    background-color: #502314;
+}
+
+#logo-background {
+    background-color: #F5EBDC;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+#logo-background img {
+    width: 80px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.container-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    padding-top: 40px;
+}
+
+.left-app {
+    display: flex;
+}
+
+.left-app p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 8pt;
+    color: white;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+#download {
+    width: 400px;
+}
+
+.line-footer {
+    width: 95%;
+    justify-content: center;
+    height: 1px;
+    background-color: #ffffff9d;
+    border-radius: 5px;
+}
+
+.container-networks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container-logos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.container-networks p {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 24pt;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container-networks img {
+    width: 35px;
+}
+
+.container-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: auto;
+    gap: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container-links li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.container-links ul {
+    padding: 0;
+    text-align: left;
+}
+
+.container-links h4 {
+    font-family: Nunito;
+    font-weight: 1000;
+    font-size: 12pt;
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.container-links a {
+    text-decoration: none;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 9pt;
+    color: white;
+}
+
+.container-links a:hover {
+    font-size: 10pt;
+    text-shadow: -5px 4px 1px 0rem #00000091;
+}
+
+#last-line {
+    margin-bottom: 0;
+}
+
+.container-mentions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.container-mentions nav {
+    width: 800px;
+    padding: 0;
+}
+
+.container-mentions ul {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-mentions li {
+    list-style: none;
+    flex: 1;
+
+}
+
+.container-mentions a {
+    text-decoration: none;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 7pt;
+    color: white;
+}
+
+.container-mentions p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 7pt;
+    color: white;
+    width: 320px;
+    margin-top: 5px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1150px) {
+    .logo-menu img {
+        display: none;
+    }
+}
+
+/* max-width 850px*/
+
+@media screen and (max-width: 990px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: left;
+        align-items: start;
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+
+    .menuburger {
+        width: 200px;
+    }
+
+
+    .menuflex ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .menuflex li {
+        font-size: 16pt;
+    }
+
+    .menuflex li:hover {
+        font-size: 18pt;
+    }
+
+    /* HEADER */
+
+    #image-relative-html {
+        height: 350px;
+    }
+
+    #image-absolute-html {
+        height: 210px;
+        top: 80px;
+        left: 50px;
+    }
+
+    #structure-html img {
+        width: 300px;
+    }
+
+    #text-structure-html {
+        padding: 0;
+    }
+
+    /* FOOTER */
+
+    .container-app {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .left-app {
+        display: flex;
+        width: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-app p {
+        margin: 0;
+        margin-left: 10px;
+        width: 380px;
+        text-align: center;
+    }
+
+    .container-app img {
+        margin-top: 30px;
+    }
+
+    .container-links {
+        display: flex;
+        gap: 30px;
+        width: fit-content;
+    }
+
+    .footer-links h2,
+    .footer-links li {
+        text-align: center;
+    }
+
+    .container-mentions ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container-mentions li {
+        font-size: 11pt;
+        line-height: .7;
+        margin-bottom: 15px;
+    }
+
+    .container-ingredients-html div {
+        width: 600px;
+    }
+
+    .container-ingredients-html code {
+        font-size: 11px;
+    }
+
+    .container-expressions-html {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #image-middle-html {
+        width: 400px;
+        margin: auto;
+        align-self: center;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    #structure-html {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #structure-html img {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .container-ingredients-html div {
+        width: 450px;
+    }
+
+    .container-ingredients-html code {
+        font-size: 9px;
+    }
+}
