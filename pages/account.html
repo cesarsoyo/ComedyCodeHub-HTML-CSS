@@ -4,12 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notre Menu en Développement</title>
-    <link rel="stylesheet" href="./assets/styles/menu.css">
-    <!-- https://fonts.google.com/specimen/Nunito
-        https://fonts.google.com/specimen/Alfa+Slab+One?stroke=Serif  
-    https://www.flexclip.com/es/share/4414941cd0918dd8496d1d6d59b75ca69ac2dc9.html -->
-
+    <title>Mon compte</title>
+    <link rel="stylesheet" href="../assets/styles/account.css">
 </head>
 
 <body>
@@ -23,7 +19,7 @@
             <nav class="nav-absolute">
                 <ul>
                     <li id="menuburger-nothing"></li>
-                    <li><a href="./accueil.html">Accueil</a></li>
+                    <li><a href="../accueil.html">Accueil</a></li>
                     <li><a href="./menu.html">Notre Menu de Développement</a></li>
                     <li><a href="./clickcollect.html">Click&Codellect</a></li>
                     <li><a href="./engagements.html">Nos Engagements en Développement</a></li>
@@ -32,7 +28,7 @@
             </nav>
         </div>
         <div class="logo-menu">
-            <a href="./accueil.html"><img id="image-logo" src="./assets/img/logo-nobackground.png" alt=""></a>
+            <a href="../accueil.html"><img id="image-logo" src="../assets/img/logo-nobackground.png" alt=""></a>
             <nav class="menuflex">
                 <ul>
                     <li><a href="./html.html">Hot Tasty&Markup-tastic</a></li>
@@ -44,100 +40,50 @@
             </nav>
         </div>
     </header>
-
     <!-- HEADER -->
-
     <main>
-        <h1>Notre Menu en Développement</h1>
-        <p id="text-intro-menu">Bienvenue chez Le Monde Web de Thomas sans Burgers, où nos hamburgers ne sont pas seulement délicieux, mais
-            aussi éducatifs! 
-            <br>Découvrez nos Dev Burgers, un festin qui stimule votre palais et vos connaissances en
-            développement web!</p>
-
-        <section id="menu-burgers">
-            <h2>Nos burgers</h2>
-            <div class="container-menu-burgers">
-                <div class="card-burger">
-                    <a href="./html.html"><img src="./assets/img/html-burger.jpg" alt="Hot Tasty&Markup-tastic"></a>
-                    <p>Parfait pour apprendre l'HTML, notre Hot Tasty&Markup-tastic offre une explosion de saveurs
-                        éducatives. Un bun bien structuré.</p>
-                    <div class="price">
-                        <p><b style="font-size: 14pt;">6,99€</b></p>
-                    </div>
-                </div>
-                <div class="card-burger">
-                    <a href="./css.html"><img src="./assets/img/css-burger.jpg" alt="Double Stylehouse CSS"></a>
-                    <p>L'élégance du CSS dans un burger! Double Stylehouse CSS propose une leçon de style unique.
-                        Des couches de saveur parfaitement stylisées.</p>
-                    <div class="price">
-                        <p><b style="font-size: 14pt;">8,99€</b></p>
-                    </div>
-                </div>
-                <div class="card-burger">
-                    <a href="./js.html"><img src="./assets/img/js-burger.jpg" alt="Double Script Bacon XXL"></a>
-                    <p>Leçon de JavaScript avec Double Script Bacon XXL! Une symphonie de saveurs de scripts.
-                        Un bacon XXL pour des fonctions extra-savoureuses.</p>
-                    <div class="price">
-                        <p><b style="font-size: 14pt;">9,99€</b></p>
-                    </div>
-                </div>
-                <div class="card-burger">
-                    <a href="./php.html"><img src="./assets/img/php-burger.jpg" alt="PHP Whopper Supreme"></a>
-                    <p>Explorez le monde PHP avec notre PHP Whopper Supreme. Une expérience gustative et éducative.
-                        Un Whopper PHP robuste et savoureux.</p>
-                    <div class="price">
-                        <p><b style="font-size: 14pt;">9,99€</b></p>
-                    </div>
-                </div>
+        <h1>Devorez les Avantages - Créez votre Compte avec Gourmandise!</h1>
+        <p>Bienvenue dans l'univers délectable du Monde Web de Thomas sans Burgers! Chez nous, créer un compte est aussi
+            délicieux que déguster un burger avec une touche de magie de code. Préparez-vous à savourer les avantages
+            savoureux que nous avons concoctés spécialement pour vous.</p>
+        <p>Nous vous offrons bien plus qu'un simple compte utilisateur. Imaginez un menu exclusif de fonctionnalités
+            succulentes, où chaque clic vous rapproche d'une expérience en ligne des plus savoureuses.</p>
+        <div class="container-account">
+            <div class="input-account">
+                <label for="user">Nom de Chef Codeur</label>
+                <input id="user" type="text" placeholder="Thomas Maitre du Back" required>
             </div>
-        </section>
-
-        <section class="container-menu-complet">
-            <div>
-                <h2>
-                    Menu Complet :
-                </h2>
-                <p>Ajoutez des <b>"Frites de Fonctionnalités"</b> et une <b>"Boisson de Codage"</b> pour seulement <b style="color: #BB1E32;">2,99 euros</b> de plus,
-                    transformant votre repas en une expérience de développement web complète!</p>
+            <div class="input-account">
+                <label for="mail">Votre Email Gourmand</label>
+                <input id="mail" type="email" placeholder="example@jemangedevburgers.fr" required>
             </div>
-            <div>
-                <img src="./assets/img/fries-coke-menu.gif" alt="Menu complet">
+            <div class="input-account">
+                <label for="pass">Mot de Passe Caché</label>
+                <input id="pass" type="password" placeholder="************" required>
             </div>
-        </section>
-        <section class="container-next">
-            <div>
-                <img id="next-burger" src="./assets/img/burger-contact.gif" alt="Next Dev-Burgers?">
+            <div class="input-account">
+                <button type="submit">Abracadabra <span id="btn-abracadabra">- Créer mon Compte!</span></button>
             </div>
-            <div>
-                <h2>
-                    Prochaines Burgers Dev
-                </h2>
-                <p>Restez à l'affût des prochaines saveurs! Notre équipe de chefs-coders concocte déjà de nouvelles
-                    hamburgers décadentes pour stimuler votre appétit de connaissances. Préparez-vous à dévorer l'avenir
-                    du
-                    développement web chez Le Monde Web de Thomas sans Burgers!</p>
-                <ul>
-                    <li><b>Java Fusion Supreme :</b>
-                        Une fusion audacieuse de saveurs Java pour stimuler votre palais avec élégance.</li>
-                    <li><b>Python Slither Delight :</b>
-                        Une délice de saveurs Python qui glissent en douceur sur votre langue.</li>
-                    <li><b>C# Sharp Cheddar Stack :</b>
-                        Un empilement audacieux de saveurs C# pour les amateurs de goût sophistiqué.</li>
-                    <li><b>Rust Iron Stackhouse :</b>
-                        Un burger robuste avec des saveurs Rust, pour une expérience de dégustation inoubliable.</li>
-                    <li><b>SQL Data Cruncher Burger :</b>
-                        Le burger parfait pour les amateurs de données, avec des saveurs SQL bien assaisonnées.</li>
-                </ul>
+            <div class="container-checkbox">
+                <input id="check-accept" type="checkbox" required>
+                <label id="accept" for="check-accept">J'accepte de déguster les délices numériques!</label>
             </div>
-        </section>
+        </div>
+        <br><br>
+        <p> Un immense merci de la part de toute l'équipe! Nous sommes ravis que vous ayez choisi de faire partie de
+            notre
+            aventure gourmande en ligne. Préparez-vous à déguster les saveurs uniques de Le Monde Web de Thomas sans Burgers.
+            Nous
+            sommes impatients de vous régaler avec des fonctionnalités alléchantes et des surprises numériques
+            délicieuses.
+            <br><br><b style="font-size: 14pt;">À votre appétit virtuel!</b></p>
     </main>
-
     <!-- FOOTER -->
     <footer>
         <div class="container-app">
             <div class="left-app">
                 <div id="logo-background">
-                    <img src="./assets/img/logo-nobackground.png" alt="Logo">
+                    <img src="../assets/img/logo-nobackground.png" alt="Logo">
                 </div>
                 <div>
                     <p><b>Téléchargez l'application DevBurgers+</b></p>
@@ -146,8 +92,8 @@
                         les offres exclusives de notre restaurant sur DevBurgers+.</p>
                 </div>
             </div>
-            <div>
-                <img id="download" src="./assets/img/download-google-app.png" alt="App Store & Google Play">
+            <div class="download-container">
+                <img id="download" src="../assets/img/download-google-app.png" alt="App Store & Google Play">
             </div>
         </div>
         <br>
@@ -155,12 +101,12 @@
         <div class="container-networks">
             <p>Suivez-nous</p>
             <div class="container-logos">
-                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="./assets/img/facebook-logo.svg"
+                <a href="https://www.facebook.com/burgerkingfranceofficiel"><img src="../assets/img/facebook-logo.svg"
                         alt="Facebook"></a>
-                <a href="https://www.instagram.com/burgerkingfr/"><img src="./assets/img/instagram-logo.svg"
+                <a href="https://www.instagram.com/burgerkingfr/"><img src="../assets/img/instagram-logo.svg"
                         alt="Instagram"></a>
-                <a href="https://twitter.com/burgerkingfr"><img src="./assets/img/x-logo.svg" alt="Twitter"></a>
-                <a href="https://www.tiktok.com/@burgerkingfr"><img src="./assets/img/tiktok-logo.svg"
+                <a href="https://twitter.com/burgerkingfr"><img src="../assets/img/x-logo.svg" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/@burgerkingfr"><img src="../assets/img/tiktok-logo.svg"
                         alt="Tik Tok"></a>
             </div>
         </div>
