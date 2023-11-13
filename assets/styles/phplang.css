@@ -553,3 +553,37 @@ footer {
     }
 
 }
+
+
+@media screen and (max-width: 850px) {
+
+#image-intro-php {
+    width: 450px;
+    margin: auto;
+}
+
+.container-title2-php div {
+    width: 450px;
+}
+
+.container-title2-php code {
+    font-size: 9px;
+}
+
+.container-ingredients-php div {
+    width: 450px;
+}
+
+.container-ingredients-php code {
+    font-size: 9px;
+}
+
+.container-title4-php div {
+    width: 450px;
+}
+
+.container-title4-php code {
+    font-size: 9px;
+}
+
+}

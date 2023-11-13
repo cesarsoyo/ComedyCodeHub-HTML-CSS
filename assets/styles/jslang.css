@@ -494,11 +494,11 @@ footer {
     }
 
     .container-codes code {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .container-ingredients-js code {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     /* FOOTER */
@@ -560,4 +560,19 @@ footer {
         width: 450px;
     }
 
+    .container-art-js div {
+        width: 450px;
+    }
+
+    .container-ingredients-js div {
+        width: 450px;
+    }
+
+    .container-codes code {
+        font-size: 9px;
+    }
+
+    .container-ingredients-js code {
+        font-size: 9px;
+    }
 }

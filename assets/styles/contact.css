@@ -692,3 +692,28 @@ footer {
     }
 
 }
+
+
+
+@media screen and (max-width: 850px) {
+
+    .container-name input {
+        width: 420px;
+    }
+
+    .container-form img {
+        width: 140px;
+    }
+
+    .container-title-burgers label {
+        font-size: 8pt;
+    }
+
+    .text-desc-burgers {
+        font-size: 6pt;
+    }
+
+    .burgers select {
+        font-size: 6pt;
+    }
+}
