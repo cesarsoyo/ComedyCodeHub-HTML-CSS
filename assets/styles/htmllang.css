@@ -551,7 +551,7 @@ footer {
     footer {
         padding-top: 20px;
     }
-    
+
     .container-app {
         display: flex;
         align-items: center;
@@ -668,9 +668,33 @@ footer {
 
     /* HEADER */
 
+    #image-absolute-html {
+        display: none;
+    }
+
+    #image-relative-html {
+        width: 350px;
+    }
+
+    .container-image-intro-html {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-ingredients-html div {
+        width: 100%;
+    }
+
+    .container-ingredients-html code {
+        font-size: 7px;
+    }
+
+    #image-middle-html {
+        width: 100%;
+    }
 
 
-    
     /* FOOTER */
 
     .download-container {

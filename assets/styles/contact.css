@@ -758,7 +758,13 @@ footer {
     }
 
     .container-burgers img {
-        width: 100%;
+        width: 68px;
+    }
+
+    .container-burgers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: start;
     }
 
     .container-burgers img:hover {
@@ -786,6 +792,10 @@ footer {
 
     #btn-envoyer-commande:hover {
         font-size: 9pt;
+    }
+
+    .container-textarea {
+        width: 100%;
     }
 
     .container-textarea b {
