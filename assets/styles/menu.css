@@ -533,7 +533,7 @@ footer {
     footer {
         padding-top: 20px;
     }
-    
+
     .container-app {
         display: flex;
         align-items: center;
@@ -611,7 +611,7 @@ footer {
 
 
 
-    
+
     /* FOOTER */
 
     .download-container {
@@ -686,5 +686,132 @@ footer {
     .container-mentions p {
         font-size: 5pt;
         text-align: right;
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+
+    main {
+        padding: 50px 20px 60px 20px;
+    }
+
+    main h1 {
+        font-size: 26px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+    main p {
+        font-size: 13px;
+    }
+
+    #menu-burgers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-menu-burgers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .card-burger img {
+        width: 250px;
+    }
+
+    .card-burger {
+        width: 250px;
+    }
+
+    .card-burger p {
+        font-size: 10px;
+    }
+
+    .container-menu-complet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        gap: 0;
+    }
+
+    .container-menu-complet h2 {
+        font-size: 22px;
+    }
+
+    .container-menu-complet p {
+        font-size: 13px;
+    }
+
+    .container-next {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container-next img {
+        width: 250px;
+    }
+
+    .container-next h2 {
+        font-size: 22px;
+    }
+
+    .container-next p {
+        font-size: 13px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        width: 100%;
+    }
+
+    footer img {
+        width: 100%;
+    }
+
+    footer div {
+        width: 100%;
+    }
+
+    footer p {
+        width: 100%;
+    }
+
+    #logo-background {
+        width: fit-content;
+    }
+
+    .left-app {
+        width: 100%;
+    }
+
+    .left-app p {
+        font-size: 8px;
+        width: fit-content;
+    }
+
+    .container-mentions li {
+        gap: 2px;
+    }
+
+    .container-links li {
+        font-size: 6px;
+    }
+
+    .container-mentions li {
+        font-size: 4px;
+        margin-bottom: 10px;
+        line-height: 1.3;
     }
 }

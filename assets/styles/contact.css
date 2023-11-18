@@ -916,3 +916,142 @@ footer {
         text-align: right;
     }
 }
+
+
+
+@media screen and (max-width: 360px) {
+
+    main {
+        padding: 50px 20px 60px 20px;
+    }
+
+    main h1 {
+        font-size: 26px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+    main p {
+        font-size: 13px;
+    }
+
+    .container-form {
+        width: fit-content;
+        margin: 0;
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+
+    .container-form input {
+        width: 140px;
+    }
+
+    .container-form label {
+        font-size: 13px;
+    }
+
+    .container-form input::placeholder {
+        font-size: 10px;
+    }
+
+    .burgers label {
+        font-size: 6px;
+    }
+
+    .container-title-burgers label {
+        font-size: 8px;
+    }
+
+    .container-title-burgers input {
+        margin: 0;
+        width: fit-content;
+    }
+
+    .burgers select {
+        font-size: 6px;
+        color: black;
+        text-align: center;
+        width: 80px;
+    }
+
+    .container-textarea {
+        font-size: 13px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    textarea::placeholder {
+        font-size: 10px;
+        font-family: Nunito;
+        font-style: italic;
+    }
+
+    .container-contact {
+        width: fit-content;
+    }
+
+    .container-contact p {
+        font-size: 13px;
+
+    }
+
+    .container-signup {
+        width: 100%;
+        margin: 0;
+        margin-left: -20px;
+        padding: 80px 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+
+    .container-signup p {
+        font-size: 13px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        width: 100%;
+    }
+
+    footer img {
+        width: 100%;
+    }
+
+    footer div {
+        width: 100%;
+    }
+
+    footer p {
+        width: 100%;
+    }
+
+    #logo-background {
+        width: fit-content;
+    }
+
+    .left-app {
+        width: 100%;
+    }
+
+    .left-app p {
+        font-size: 8px;
+        width: fit-content;
+    }
+
+    .container-mentions li {
+        gap: 2px;
+    }
+
+    .container-links li {
+        font-size: 6px;
+    }
+
+    .container-mentions li {
+        font-size: 4px;
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+}

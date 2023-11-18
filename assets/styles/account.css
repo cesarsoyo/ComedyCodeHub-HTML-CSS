@@ -452,7 +452,7 @@ footer {
     footer {
         padding-top: 20px;
     }
-    
+
     .container-app {
         display: flex;
         align-items: center;
@@ -622,5 +622,84 @@ footer {
     .container-mentions p {
         font-size: 5pt;
         text-align: right;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    main h1 {
+        font-size: 100%;
+    }
+
+    main p {
+        font-size: 13px;
+    }
+
+    .container-account {
+        width: 100%;
+    }
+
+    .input-account label,
+    .input-account input {
+        width: 80%;
+    }
+
+    .input-account input::placeholder {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .container-checkbox {
+        width: 100%;
+    }
+
+    .container-checkbox input {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        width: 100%;
+    }
+
+    footer img {
+        width: 100%;
+    }
+
+    footer div {
+        width: 100%;
+    }
+
+    footer p {
+        width: 100%;
+    }
+
+    #logo-background {
+        width: fit-content;
+    }
+    .left-app {
+        width: 100%;
+    }
+
+    .left-app p {
+        font-size: 8px;
+        width: fit-content;
+    }
+
+    .container-mentions li {
+        gap: 2px;
+    }
+
+    .container-links li {
+        font-size: 6px;
+    }
+
+    .container-mentions li {
+        font-size: 4px;
+        margin-bottom: 10px;
+        line-height: 1.3;
     }
 }
