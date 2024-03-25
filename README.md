@@ -75,4 +75,4 @@ et les explications des technologies PHP et JavaScript seront intégrés mais ne
 pas d'interactivité avancée.
 • Compatibilité : Le site doit être compatible avec les principaux navigateurs tels que Chrome,
 Firefox et Safari, ainsi qu'être responsive pour une expérience utilisateur optimale sur les
-appareils mobiles.
+appareils mobiles (Samsung et Xiaomi, pas d'iPhone).
